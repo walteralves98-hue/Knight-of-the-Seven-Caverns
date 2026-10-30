@@ -1,15 +1,7 @@
-# Knight of the Seven Caverns — Web Edition
+KNIGHT OF THE SEVEN CAVERNS - VERCEL FIX
 
-A standalone, playable HTML5 canvas platform game. No Python, Pygame, npm, or build step required.
-
-## Play locally
-Double-click `index.html` in Chrome, Edge, or Firefox.
-
-## Publish for free
-Upload `index.html` to GitHub Pages (repository Settings > Pages > Deploy from a branch, main / root), or drag this folder onto Netlify Drop at https://app.netlify.com/drop.
-
-## Controls
-A/D or arrow keys to move, W/Up/Space to jump, J/X to attack, P to pause, R to start over. Touch buttons appear on narrow screens.
-
-## Notes
-Progress saves to browser localStorage. All graphics are generated with Canvas; there are no external assets or dependencies.
+Upload index.html and vercel.json at the repository ROOT (not inside a nested folder).
+In Vercel: Framework Preset Other; Root Directory ./; Build Command empty; Output Directory empty/default.
+The game now auto-starts. Use A/D to move, Space to jump, J to attack, or touchscreen buttons.
+Use Start / Resume to restart from pause or game over.
+No Python, npm, or build process required.
